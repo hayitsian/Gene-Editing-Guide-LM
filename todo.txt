@@ -1,0 +1,20 @@
+To Do Tonight:
+- OT Library Data
+	- GridSearchCV best Lasso
+		- save features and coefficients into dataframe/csv
+	- Lasso feature selection
+		- save several sets of features to dict
+	- GridSearchCV best NN
+		- save features and metrics into dataframe/csv
+
+To Do Tomorrow:
+- OT Library Data
+	- Visualize feature optimization
+		- line graph of model error as # features increase
+		- use GBRT, LR, NN
+	- Talk to Matt about other ways to visualize
+- On-target Library Data
+	- Visualize feature optimization
+- Both
+	- compare feature optimization, hightlighting things that jump out
+	- compare model error
