@@ -2,3 +2,4 @@
 KO_Data_V2_Featurized.csv
 models/embedded ko sequence data.csv
 models/embedded sequence data.csv
+models/off-target embedded sequence data.csv
