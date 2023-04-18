@@ -4,3 +4,6 @@ models/embedded ko sequence data.csv
 models/embedded sequence data.csv
 models/off-target embedded sequence data.csv
 data/AIO_offTarget_V2_Featurized.csv
+NLP project/AIO_offTarget_V2_Featurized.csv
+NLP project/embedded sequence data.csv
+NLP project/off-target embedded sequence data.csv
