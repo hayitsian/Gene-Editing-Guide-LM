@@ -1,2 +1,2 @@
-# Gene Editing Guide Large Language Model (LLM)
+# Gene Editing Guide Language Model (LM)
  gRNA expansion on GNL scorer.
