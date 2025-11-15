@@ -1,2 +1,5 @@
-# Gene Editing Guide Large Language Model (LLM)
- gRNA expansion on GNL scorer.
+# Gene Editing Guide Language Model
+CRISPR gene editing has revolutionized genetic engineering ever since its discovery in 2014. However, CRISPR's success is limited by the extensive screening needed to efficiently edit a target gene. CRISPR's enyme Cas9 is chaperones by a guide RNA (gRNA) sequence complementary to its target DNA sequence. Not all gRNA sequences are created equal, as some are more efficient binders to their target. Additionally, off-target binding of the gRNA is detrimental as it causes non-specific activity of Cas9, which can cause cellular dysfunction or cancer in the worst cases. As a result, predicting the on- and off-target activity of a given gRNA sequence is important to CRISPR's application in biomedical research and therapeutic development.
+
+Here, we used language models to predict CRISPR gRNA on- and off-target activity by the gRNA target sequence. We began by expanding upon a previously published paper detailing the GNL scorer model, using the same datasets to replicate their gradient-boosted regression tree and Bayesian ridge regression models. We then sought to use advancements in language models to develop embeddings for the gRNA sequences that could be fed into feed-forward neural networks. We compared embeddings created from the generalized pretrained transformer BERT with the Word2Vec model from Gensim.
+
