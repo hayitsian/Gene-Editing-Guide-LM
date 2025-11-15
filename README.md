@@ -5,6 +5,8 @@ Here, we used language models to predict CRISPR gRNA on- and off-target activity
 
 We began by training the Word2Vec model on the gRNA sequences and their on-target scores to obtain embeddings for each nucleotide: A, C, G, and T. The first 4 features of the 25 featured embeddings can be seen below:
 
+| Nucleotide | Feature 1  | Feature 2  | Feature 3 | Feature 4 |
+|---|--------------|---------------|--------------|--------------|
 | A | -0.03263167  | 0.017983193   | -0.016548304 | 0.0032981443 |
 | C | -0.002144909 | 0.0009457254  | 0.020413399  | 0.03603709   |
 | G | 0.0022871399 | 0.029767632   | -0.003253131 | -0.010553655 |
